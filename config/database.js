@@ -77,7 +77,7 @@ module.exports = {
       port: Env.get('DB_PORT', ''),
       user: Env.get('DB_USER', 'postgres'),
       password: Env.get('DB_PASSWORD', '1234'),
-      database: Env.get('DB_DATABASE', 'auditoria1')
+      database: Env.get('DB_DATABASE', 'PGAUDIT')
     },
     debug: Env.get('DB_DEBUG', false)
   }
